@@ -12,16 +12,16 @@
 <header class="hero">
 <nav>
 <div class="logo">
-<h1>ARBFILM</h1>
-<span>PRODUCTION</span>
+    <img src="images/logo.png" alt="ARBFILM Logo">
 </div>
 
 <ul class="menu">
-<li><a href="#about">About</a></li>
-<li><a href="#rentals">Rentals</a></li>
-<li><a href="#project">Film</a></li>
-<li><a href="#gallery">Gallery</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="#about" data-key="navAbout">About</a></li>
+<li><a href="#filmography" data-key="navFilmography">Filmography</a></li>
+<li><a href="#development" data-key="navDevelopment">In Development</a></li>
+<li><a href="#gallery" data-key="navGallery">Gallery</a></li>
+<li><a href="#rentals" data-key="navRentals">Rentals</a></li>
+<li><a href="#contact" data-key="navContact">Contact</a></li>
 </ul>
 
 <div class="language">
@@ -32,270 +32,315 @@
 </nav>
 
 <div class="hero-content">
-<p class="subtitle" data-key="heroSubtitle">CINEMATIC STORYTELLING FROM NORTH MACEDONIA</p>
-<h1 data-key="heroTitle">CINEMA.<br>PASSION.<br>DEDICATION.</h1>
-<p class="hero-text" data-key="heroText">
-Feature films, documentaries, commercials and visual storytelling crafted with cinematic precision.
-</p>
-<a href="#about" class="main-btn" data-key="discover">DISCOVER MORE</a>
+<p data-key="heroSmall">ARBFILM PRODUCTION</p>
+<h2 data-key="heroTitle">STORIES.<br>CINEMA.<br>MEMORY.</h2>
+<span data-key="heroText">Feature films, documentaries and cinematic visual storytelling from North Macedonia.</span>
+<a href="#filmography" class="btn" data-key="heroBtn">VIEW FILMOGRAPHY</a>
 </div>
 </header>
 
 <section id="about" class="about">
-<div class="container">
-<div class="about-image">
+<div class="about-img">
 <img src="images/photo2.jpg" alt="Arben Tachi">
 </div>
 
 <div class="about-text">
-<span data-key="aboutSmall">ABOUT ARBFILM</span>
-<h2 data-key="aboutTitle">Visual Stories That Leave A Mark</h2>
-<p data-key="aboutText1">
-ARBFILM is an independent film production company based in Tetovo, North Macedonia, founded by filmmaker Arben Thaçi.
-</p>
-<p data-key="aboutText2">
-The company develops and produces feature films, documentaries, television content and commercial productions with a strong cinematic identity.
-</p>
-</div>
+<p data-key="aboutSmall">ABOUT ARBFILM</p>
+<h2 data-key="aboutTitle">Independent Cinema With A Strong Visual Identity</h2>
+<span data-key="aboutText">
+ARBFILM is an independent film production company based in Tetovo, North Macedonia, founded by filmmaker Arben Thaçi. The company develops and produces feature films, documentaries, commercial productions and cinematic visual stories.
+</span>
 </div>
 </section>
+</section>
 
-<section id="rentals" class="rentals">
+<section class="about">
+
+<div class="about-text">
+<p>OUR APPROACH</p>
+<h2>Cinema Rooted in Memory, Landscape and Human Conflict</h2>
+<span>
+ARBFILM develops stories that explore identity, history, morality and the invisible forces that shape human life. Our work combines intimate character drama with strong visual atmosphere, using the landscapes of the Balkans as emotional and cinematic spaces.
+</span>
+</div>
+
+<div class="about-text">
+<p>WHAT WE DO</p>
+<h2>From Development to Production</h2>
+<span>
+We work across feature films, documentaries, commercials and cultural projects, offering creative development, production coordination, cinematography support and professional cinema equipment rental for local and international productions.
+</span>
+</div>
+
+</section>
+
+<section id="filmography" class="filmography">
+<section id="filmography" class="filmography">
 <div class="section-title">
-<span data-key="rentalSmall">CAMERA, LENS & LIGHTING RENTAL</span>
-<h2 data-key="rentalTitle">Professional Cinema Equipment</h2>
+<p data-key="filmographySmall">SELECTED WORKS</p>
+<h2 data-key="filmographyTitle">Filmography</h2>
 </div>
 
-<div class="rental-grid">
-<div class="rental-card" onclick="openRental('cameras')">
-<h3>CAMERAS</h3>
-<p>ARRI, RED & Nikon cinema systems</p>
-<small data-key="clickDetails">Click for details</small>
+<div class="cards">
+
+<div class="card">
+<img src="images/photo6.jpg" alt="I Treturi">
+
+<div class="title-row">
+
+<h3>I TRETURI</h3>
+
+<a href="https://www.youtube.com/watch?v=0yMd6gCtyCA&t=1s"
+target="_blank"
+class="trailer-link">
+WATCH TRAILER
+</a>
+
 </div>
 
-<div class="rental-card" onclick="openRental('lenses')">
-<h3>LENSES</h3>
-<p>ARRI Master Primes & NIKKOR Z lenses</p>
-<small data-key="clickDetails">Click for details</small>
+<p>Feature Film / 2021</p>
+
+<a href="https://www.imdb.com/title/tt27752047/"
+target="_blank"
+class="imdb-link">
+IMDb
+</a>
+
 </div>
 
-<div class="rental-card" onclick="openRental('lighting')">
-<h3>LIGHTING</h3>
-<p>Aputure Storm and professional LED kits</p>
-<small data-key="clickDetails">Click for details</small>
+<div class="card">
+    <img src="images/photo3.jpg" alt="Një rreze mbi Sharr">
+    <h3>NJË RREZE MBI SHARR</h3>
+    <p>Documentary / 2010</p>
+
+<a href="https://www.imdb.com/title/tt27760365/"
+    target="_blank"
+    class="imdb-link">
+    IMDb
+</a>
 </div>
+
+<div class="card">
+<img src="images/photo4.jpg" alt="Prapa Territ">
+
+<h3>PRAPA TERRIT</h3>
+
+<p>Short Film / 2007</p>
+
+<a href="https://www.imdb.com/title/tt1550580/"
+target="_blank"
+class="imdb-link">
+IMDb
+</a>
+
+</div>
+
 </div>
 </section>
 
-<section id="project" class="project">
-<div class="project-info">
-<span data-key="latest">LATEST PROJECT</span>
-<h2>I TRETURI</h2>
-<p data-key="filmText">
-Beqir is haunted by his past and struggling to come to terms with his guilt and remorse. To confront his demons, he decides to write his memoirs, uncovering the shocking events that forced him to leave his hometown.
-</p>
-<a href="#project" class="watch-btn" data-key="watch">WATCH TRAILER</a>
+<section id="development" class="planned">
+<div class="section-title">
+<p data-key="developmentSmall">arbfilm</p>
+<h2 data-key="developmentTitle">Upcoming Projects</h2>
 </div>
 
-<div class="project-video">
-<video controls poster="images/photo6.jpg">
-<source src="videos/trailer.mp4" type="video/mp4">
-</video>
+<div class="cards two-cards">
+
+<div class="card" onclick="openProject('ajal')">
+<img src="images/photo7.jpg" alt="AJAL">
+<h3>AJAL</h3>
+<p data-key="ajalCard">Planned Feature Film</p>
+</div>
+
+<div class="card" onclick="openProject('varka')">
+<img src="images/photo5.jpg" alt="Varka">
+<h3>VARKA</h3>
+<p data-key="varkaCard">Feature Film in Development</p>
+</div>
+
 </div>
 </section>
 
 <section id="gallery" class="gallery">
 <div class="section-title">
-<span data-key="behind">BEHIND THE SCENES</span>
-<h2 data-key="galleryTitle">Production Gallery</h2>
+<p data-key="gallerySmall">PRODUCTION GALLERY</p>
+<h2 data-key="galleryTitle">Behind The Scenes</h2>
 </div>
 
 <div class="gallery-grid">
-<img src="images/photo1.jpg" alt="Behind the scenes">
-<img src="images/photo3.jpg" alt="Film production">
-<img src="images/photo4.jpg" alt="Camera work">
-<img src="images/photo5.jpg" alt="Production setup">
-<img src="images/photo6.jpg" alt="Film poster">
-<img src="images/background.jpg" alt="Film scene">
+<img src="images/photo1.jpg" alt="Camera BTS">
+<img src="images/60.JPG" alt="Behind The Scenes">
+<img src="images/38.JPG" alt="Production">
+<img src="images/39.JPG" alt="Location">
+<img src="images/55.JPG" alt="Film set">
+<img src="images/58.JPG" alt="Production crew">
 </div>
 </section>
 
-<footer id="contact" class="footer">
-<p class="footer-question">
-Questions? <a href="https://wa.me/389XXXXXXXXX?text=Hello%20ARBFILM" target="_blank">Contact us.</a>
+<section id="rentals" class="rentals">
+<div class="section-title">
+<p data-key="rentalSmall">EQUIPMENT RENTAL</p>
+<h2 data-key="rentalTitle">Camera, Lens & Lighting Packages</h2>
+</div>
+
+<div class="rental-grid">
+
+<div class="rental-card" onclick="openRental('cameras')">
+<h3 data-key="cameras">CAMERAS</h3>
+<p data-key="camerasDesc">ARRI, RED & Nikon cinema systems</p>
+</div>
+
+<div class="rental-card" onclick="openRental('lenses')">
+<h3 data-key="lenses">LENSES</h3>
+<p data-key="lensesDesc">ARRI Master Primes & NIKKOR Z lenses</p>
+</div>
+
+<div class="rental-card" onclick="openRental('lighting')">
+<h3 data-key="lighting">LIGHTING</h3>
+<p data-key="lightingDesc">Aputure Storm and professional LED kits</p>
+</div>
+
+</div>
+</section>
+
+<footer id="contact">
+<p>
+<span data-key="questions">Questions?</span>
+<a href="https://wa.me/38971319578" target="_blank" data-key="contactUs">Contact us.</a>
 </p>
 
-<div class="footer-grid">
-<div>
-<a href="#project">I Treturi</a>
-<a href="#">AJAL</a>
-<a href="#">VARKA</a>
-</div>
-
-<div>
-<a href="#about">About ARBFILM</a>
-<a href="#rentals">Equipment Rental</a>
-<a href="#gallery">Production Gallery</a>
-</div>
-
-<div>
-<a href="#rentals">Cameras</a>
-<a href="#rentals">Lenses</a>
-<a href="#rentals">Lighting</a>
-</div>
-
-<div>
+<div class="footer-links">
 <a href="mailto:arbenthachi@gmail.com">Email</a>
-<a href="https://wa.me/389XXXXXXXXX?text=Hello%20ARBFILM" target="_blank">WhatsApp</a>
+<a href="https://wa.me/38971319578" target="_blank">WhatsApp</a>
+<a href="https://www.imdb.com/title/tt27752047/" target="_blank">IMDb</a>
 <a href="#">Instagram</a>
 <a href="#">YouTube</a>
 </div>
-</div>
 
-<p class="copyright">© 2026 ARBFILM Production — Tetovo, North Macedonia</p>
+<small>© 2026 ARBFILM Production — Tetovo, North Macedonia</small>
 </footer>
+
+<div id="projectModal" class="modal">
+<div class="modal-box">
+<button onclick="closeProject()">×</button>
+<img id="projectImage" alt="Project image">
+<h2 id="projectTitle"></h2>
+<p id="projectStatus"></p>
+<span id="projectDescription"></span>
+<div id="projectButtons"></div>
+</div>
+</div>
 
 <div id="rentalModal" class="modal">
 <div class="modal-box">
-<button class="close" onclick="closeRental()">×</button>
-<h2 id="modalTitle"></h2>
-<p id="modalText"></p>
-<ul id="modalList"></ul>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=arbenthachi@gmail.com&su=Rental%20Availability%20Request&body=Hello%20ARBFILM,%0D%0A%0D%0AI%20would%20like%20to%20request%20availability%20for:%0D%0A%0D%0AEquipment:%0D%0ADates:%0D%0AProject%20type:%0D%0AName:%0D%0APhone:%0D%0A%0D%0AThank%20you." target="_blank" class="main-btn">Request Availability</a>
+<button onclick="closeRental()">×</button>
+<h2 id="rentalTitle"></h2>
+<p id="rentalText"></p>
+<ul id="rentalList"></ul>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=arbenthachi@gmail.com&su=Rental%20Availability%20Request&body=Hello%20ARBFILM,%0D%0A%0D%0AI%20would%20like%20to%20request%20availability%20for:%0D%0A%0D%0AEquipment:%0D%0ADates:%0D%0AProject%20type:%0D%0AName:%0D%0APhone:%0D%0A%0D%0AThank%20you." target="_blank" class="btn" data-key="requestAvailability">Request Availability</a>
 </div>
 </div>
 
-<a href="https://wa.me/389XXXXXXXXX?text=Hello%20ARBFILM" class="whatsapp-float" target="_blank">💬</a>
+<a href="https://wa.me/38971319578" class="whatsapp" target="_blank">💬</a>
 
 <script>
-const rentalInfo = {
-cameras: {
-title: "CAMERAS",
-text: "Professional cinema camera packages for feature films, commercials and documentaries.",
-items: [
-"ARRI miniALEXA Film Package",
-"ARRI ALEXA 35 Film Package",
-"Nikon ZR",
-"RED KOMODO-X Cinema Package"
-]
+let lang = "en";
+
+const t = {
+en:{
+navAbout:"About",navFilmography:"Filmography",navDevelopment:"In Development",navGallery:"Gallery",navRentals:"Rentals",navContact:"Contact",
+heroSmall:"ARBFILM PRODUCTION",heroTitle:"STORIES.<br>CINEMA.<br>MEMORY.",heroText:"Feature films, documentaries and cinematic visual storytelling from North Macedonia.",heroBtn:"VIEW FILMOGRAPHY",
+aboutSmall:"ABOUT ARBFILM",aboutTitle:"Independent Cinema With A Strong Visual Identity",aboutText:"ARBFILM is an independent film production company based in Tetovo, North Macedonia, founded by filmmaker Arben Thaçi. The company develops and produces feature films, documentaries, commercial productions and cinematic visual stories.",
+filmographySmall:"SELECTED WORKS",filmographyTitle:"Filmography",
+itreturiCard:"Feature Film / 2021",sharrCard:"Documentary / 2010",prapaCard:"Short Film / 2007",
+developmentSmall:"IN DEVELOPMENT",developmentTitle:"Upcoming Projects",ajalCard:"Planned Feature Film",varkaCard:"Feature Film in Development",
+gallerySmall:"PRODUCTION GALLERY",galleryTitle:"Behind The Scenes",
+rentalSmall:"EQUIPMENT RENTAL",rentalTitle:"Camera, Lens & Lighting Packages",
+cameras:"CAMERAS",camerasDesc:"ARRI, RED & Nikon cinema systems",lenses:"LENSES",lensesDesc:"ARRI Master Primes & NIKKOR Z lenses",lighting:"LIGHTING",lightingDesc:"Aputure Storm and professional LED kits",
+questions:"Questions?",contactUs:"Contact us.",requestAvailability:"Request Availability"
 },
 
-lenses: {
-title: "LENSES",
-text: "Premium cinema and photographic lenses for high-end visual production.",
-items: [
-"ARRI Master Prime 16mm T1.3",
-"ARRI Master Prime 18mm T1.3",
-"ARRI Master Prime 25mm T1.3",
-"ARRI Master Prime 35mm T1.3",
-"ARRI Master Prime 50mm T1.3",
-"ARRI Master Prime 75mm T1.3",
-"NIKKOR Z 14-24mm f/2.8 S",
-"NIKKOR Z 24-70mm f/2.8 S"
-]
+sq:{
+navAbout:"Rreth nesh",navFilmography:"Filmografia",navDevelopment:"Në zhvillim",navGallery:"Galeria",navRentals:"Qira",navContact:"Kontakt",
+heroSmall:"ARBFILM PRODUCTION",heroTitle:"TREGIME.<br>KINEMA.<br>KUJTESË.",heroText:"Filma artistikë, dokumentarë dhe rrëfim vizual kinematografik nga Maqedonia e Veriut.",heroBtn:"SHIKO FILMOGRAFINË",
+aboutSmall:"RRETH ARBFILM",aboutTitle:"Kinema e Pavarur me Identitet të Fortë Vizual",aboutText:"ARBFILM është kompani e pavarur filmike me seli në Tetovë, Maqedoni e Veriut, e themeluar nga regjisori Arben Thaçi. Kompania zhvillon dhe prodhon filma artistikë, dokumentarë, prodhime komerciale dhe rrëfime vizuale kinematografike.",
+filmographySmall:"VEPRAT E ZGJEDHURA",filmographyTitle:"Filmografia",
+itreturiCard:"Film artistik / 2021",sharrCard:"Dokumentar / 2010",prapaCard:"Film i shkurtër / 2007",
+developmentSmall:"NË ZHVILLIM",developmentTitle:"Projektet e ardhshme",ajalCard:"Film artistik i planifikuar",varkaCard:"Film artistik në zhvillim",
+gallerySmall:"GALERIA E PRODUKSIONIT",galleryTitle:"Prapa Skenës",
+rentalSmall:"QIRA PAJISJESH",rentalTitle:"Paketa Kamerash, Objektivësh dhe Ndriçimi",
+cameras:"KAMERA",camerasDesc:"Sisteme kinematografike ARRI, RED dhe Nikon",lenses:"OBJEKTIVË",lensesDesc:"ARRI Master Primes dhe NIKKOR Z",lighting:"NDRIÇIM",lightingDesc:"Aputure Storm dhe kite profesionale LED",
+questions:"Pyetje?",contactUs:"Na kontaktoni.",requestAvailability:"Kërko disponueshmëri"
 },
 
-lighting: {
-title: "LIGHTING",
-text: "Professional lighting solutions for narrative, documentary and commercial productions.",
-items: [
-"Aputure Storm 1000c",
-"Aputure Storm 1200x",
-"Aputure Storm 80c — 3-light kit",
-"2× Aputure MC Pro",
-"2× Aputure MT Pro"
-]
+mk:{
+navAbout:"За нас",navFilmography:"Филмографија",navDevelopment:"Во развој",navGallery:"Галерија",navRentals:"Изнајмување",navContact:"Контакт",
+heroSmall:"ARBFILM PRODUCTION",heroTitle:"ПРИКАЗНИ.<br>КИНО.<br>МЕМОРИЈА.",heroText:"Играни филмови, документарци и кинематографско визуелно раскажување од Северна Македонија.",heroBtn:"ПОГЛЕДНИ ФИЛМОГРАФИЈА",
+aboutSmall:"ЗА ARBFILM",aboutTitle:"Независно кино со силен визуелен идентитет",aboutText:"ARBFILM е независна филмска продукциска компанија со седиште во Тетово, Северна Македонија, основана од филмскиот автор Арбен Тачи. Компанијата развива и продуцира играни филмови, документарци, комерцијални продукции и кинематографски визуелни приказни.",
+filmographySmall:"ИЗБРАНИ ДЕЛА",filmographyTitle:"Филмографија",
+itreturiCard:"Игран филм / 2021",sharrCard:"Документарец / 2010",prapaCard:"Краток филм / 2007",
+developmentSmall:"ВО РАЗВОЈ",developmentTitle:"Идни проекти",ajalCard:"Планиран игран филм",varkaCard:"Игран филм во развој",
+gallerySmall:"ПРОДУКЦИСКА ГАЛЕРИЈА",galleryTitle:"Зад сцената",
+rentalSmall:"ИЗНАЈМУВАЊЕ ОПРЕМА",rentalTitle:"Пакети камери, објективи и осветлување",
+cameras:"КАМЕРИ",camerasDesc:"Кинематографски системи ARRI, RED и Nikon",lenses:"ОБЈЕКТИВИ",lensesDesc:"ARRI Master Primes и NIKKOR Z",lighting:"ОСВЕТЛУВАЊЕ",lightingDesc:"Aputure Storm и професионални LED китови",
+questions:"Прашања?",contactUs:"Контактирајте нè.",requestAvailability:"Побарај достапност"
 }
 };
 
-function openRental(type){
-const data = rentalInfo[type];
-document.getElementById("modalTitle").innerText = data.title;
-document.getElementById("modalText").innerText = data.text;
+function setLanguage(l){
+lang = l;
+document.querySelectorAll("[data-key]").forEach(el=>{
+let key = el.getAttribute("data-key");
+if(t[l][key]) el.innerHTML = t[l][key];
+});
+}
 
-const list = document.getElementById("modalList");
+const projects = {
+itreturi:["I TRETURI","Feature Film / 2021","images/photo6.jpg","Haunted by his past, Beqir struggles with guilt and remorse. To confront his demons, he begins writing his memoirs, revealing the events that forced him to leave his hometown.",`<a href="https://www.youtube.com/watch?v=0yMd6gCtyCA" target="_blank" class="btn">Watch Trailer</a> <a href="https://www.imdb.com/title/tt27752047/" target="_blank" class="btn-outline">IMDb</a>`],
+sharr:["NJË RREZE MBI SHARR","Documentary / 2010","images/photo3.jpg","A documentary work connected to the Sharr Mountains, landscape, memory and cultural identity.",``],
+prapa:["PRAPA TERRIT","Short Film / 2007","images/photo4.jpg","An early short film directed by Arben Thaçi.",``],
+ajal:["AJAL","Planned Feature Film","images/photo7.jpg","A philosophical feature film about mortality, destiny and the appointed time of life.",``],
+varka:["VARKA","Feature Film in Development","images/photo5.jpg","A feature film inspired by a family escape across Lake Ohrid.",``]
+};
+
+function openProject(id){
+let p = projects[id];
+document.getElementById("projectTitle").innerText = p[0];
+document.getElementById("projectStatus").innerText = p[1];
+document.getElementById("projectImage").src = p[2];
+document.getElementById("projectDescription").innerText = p[3];
+document.getElementById("projectButtons").innerHTML = p[4];
+document.getElementById("projectModal").style.display = "flex";
+}
+
+function closeProject(){
+document.getElementById("projectModal").style.display = "none";
+}
+
+const rentals = {
+cameras:["CAMERAS","Professional cinema camera packages",["ARRI miniALEXA Film Package","ARRI ALEXA 35 Film Package","Nikon ZR","RED KOMODO-X Cinema Package"]],
+lenses:["LENSES","Premium cinema and photographic lenses",["ARRI Master Prime 12mm T1.3","ARRI Master Prime 18mm T1.3","ARRI Master Prime 25mm T1.3","ARRI Master Prime 35mm T1.3","ARRI Master Prime 50mm T1.3","ARRI Master Prime 75mm T1.3","NIKKOR Z 14-24mm f/2.8 S","NIKKOR Z 24-70mm f/2.8 S"]],
+lighting:["LIGHTING","Professional lighting solutions",["Aputure Storm 1000c","Aputure Storm 1200x","Aputure Storm 80c — 3-light kit","2× Aputure MC Pro","2× Aputure MT Pro"]]
+};
+
+function openRental(id){
+let r = rentals[id];
+document.getElementById("rentalTitle").innerText = r[0];
+document.getElementById("rentalText").innerText = r[1];
+let list = document.getElementById("rentalList");
 list.innerHTML = "";
-
-data.items.forEach(item => {
-const li = document.createElement("li");
+r[2].forEach(item=>{
+let li = document.createElement("li");
 li.innerText = item;
 list.appendChild(li);
 });
-
 document.getElementById("rentalModal").style.display = "flex";
 }
 
 function closeRental(){
 document.getElementById("rentalModal").style.display = "none";
 }
-
-const translations = {
-en: {
-heroSubtitle:"CINEMATIC STORYTELLING FROM NORTH MACEDONIA",
-heroTitle:"CINEMA.<br>PASSION.<br>DEDICATION.",
-heroText:"Feature films, documentaries, commercials and visual storytelling crafted with cinematic precision.",
-discover:"DISCOVER MORE",
-aboutSmall:"ABOUT ARBFILM",
-aboutTitle:"Visual Stories That Leave A Mark",
-aboutText1:"ARBFILM is an independent film production company based in Tetovo, North Macedonia, founded by filmmaker Arben Thaçi.",
-aboutText2:"The company develops and produces feature films, documentaries, television content and commercial productions with a strong cinematic identity.",
-rentalSmall:"CAMERA, LENS & LIGHTING RENTAL",
-rentalTitle:"Professional Cinema Equipment",
-clickDetails:"Click for details",
-latest:"LATEST PROJECT",
-filmText:"Beqir is haunted by his past and struggling to come to terms with his guilt and remorse. To confront his demons, he decides to write his memoirs, uncovering the shocking events that forced him to leave his hometown.",
-watch:"WATCH TRAILER",
-behind:"BEHIND THE SCENES",
-galleryTitle:"Production Gallery"
-},
-
-sq: {
-heroSubtitle:"RRËFIM KINEMATOGRAFIK NGA MAQEDONIA E VERIUT",
-heroTitle:"KINEMA.<br>PASION.<br>PËRKUSHTIM.",
-heroText:"Filma artistikë, dokumentarë, reklama dhe rrëfim vizual me saktësi kinematografike.",
-discover:"ZBULO MË SHUMË",
-aboutSmall:"RRETH ARBFILM",
-aboutTitle:"Tregime Vizuale Që Lënë Gjurmë",
-aboutText1:"ARBFILM është kompani e pavarur filmike me seli në Tetovë, Maqedoni e Veriut, e themeluar nga regjisori Arben Thaçi.",
-aboutText2:"Kompania zhvillon dhe prodhon filma artistikë, dokumentarë, përmbajtje televizive dhe prodhime komerciale me identitet të fortë kinematografik.",
-rentalSmall:"QIRA KAMERASH, OBJEKTIVËSH & NDRIÇIMI",
-rentalTitle:"Pajisje Profesionale Kinematografike",
-clickDetails:"Kliko për detaje",
-latest:"PROJEKTI I FUNDIT",
-filmText:"Beqiri përndiqet nga e kaluara e tij dhe përpiqet të përballet me fajin dhe pendimin. Për t’u përballur me demonët e tij, ai vendos të shkruajë kujtimet, duke zbuluar ngjarjet tronditëse që e detyruan të largohej nga vendlindja.",
-watch:"SHIKO TRAILERIN",
-behind:"PRAPA SKENËS",
-galleryTitle:"Galeria e Produksionit"
-},
-
-mk: {
-heroSubtitle:"КИНЕМАТОГРАФСКО РАСКАЖУВАЊЕ ОД СЕВЕРНА МАКЕДОНИЈА",
-heroTitle:"КИНО.<br>СТРАСТ.<br>ПОСВЕТЕНОСТ.",
-heroText:"Играни филмови, документарци, реклами и визуелно раскажување создадени со кинематографска прецизност.",
-discover:"ДОЗНАЈ ПОВЕЌЕ",
-aboutSmall:"ЗА ARBFILM",
-aboutTitle:"Визуелни приказни што оставаат трага",
-aboutText1:"ARBFILM е независна филмска продукциска компанија со седиште во Тетово, Северна Македонија, основана од филмскиот автор Арбен Тачи.",
-aboutText2:"Компанијата развива и продуцира играни филмови, документарци, телевизиска содржина и комерцијални продукции со силен кинематографски идентитет.",
-rentalSmall:"ИЗНАЈМУВАЊЕ КАМЕРИ, ОБЈЕКТИВИ И ОСВЕТЛУВАЊЕ",
-rentalTitle:"Професионална кинематографска опрема",
-clickDetails:"Кликни за детали",
-latest:"НАЈНОВ ПРОЕКТ",
-filmText:"Беќир е прогонуван од своето минато и се обидува да се соочи со вината и каењето. За да се соочи со своите демони, тој решава да ги напише своите мемоари, откривајќи ги шокантните настани што го натерале да го напушти родниот град.",
-watch:"ГЛЕДАЈ ТРЕЈЛЕР",
-behind:"ЗАД СЦЕНАТА",
-galleryTitle:"Продукциска галерија"
-}
-};
-
-function setLanguage(lang){
-document.querySelectorAll("[data-key]").forEach(element => {
-const key = element.getAttribute("data-key");
-element.innerHTML = translations[lang][key];
-});
-}
 </script>
 
 </body>
 </html>
-<!-- force update -->
