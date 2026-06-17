@@ -579,7 +579,10 @@ border-color:#c1121f;
 }
 /* BETTER MOBILE */
 @media (max-width: 768px){
-
+/* Hide navigation menu on phones */
+.menu{
+    display:none !important;
+}
   body{
     overflow-x:hidden;
   }
