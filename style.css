@@ -596,13 +596,13 @@ border-color:#c1121f;
     height:auto;
   }
 
-  .menu{
+ .menu{
     width:100%;
     display:flex;
     flex-wrap:wrap;
-    gap:10px;
-    justify-content:flex-start;
-  }
+    justify-content:center;
+    gap:20px;
+}
 
   .menu li a{
     font-size:13px;
