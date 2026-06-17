@@ -876,3 +876,15 @@ border-color:#c1121f;
   }
 
 }
+@media (max-width:768px){
+
+  .card{
+    text-align:center;
+  }
+
+  .imdb-link{
+    display:inline-block;
+    margin:15px auto 0;
+  }
+
+}
