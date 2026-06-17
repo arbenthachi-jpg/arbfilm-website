@@ -853,3 +853,13 @@ border-color:#c1121f;
     gap:14px;
   }
 }
+@media (max-width:768px){
+
+  .imdb-link{
+    display:block;
+    width:fit-content;
+    margin:15px auto 0 auto;
+    text-align:center;
+  }
+
+}
