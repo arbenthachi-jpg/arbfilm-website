@@ -858,9 +858,12 @@ border-color:#c1121f;
   .imdb-link{
     display:block;
     width:fit-content;
-    margin:15px auto 0 auto;
+    margin:0 auto !important;
     text-align:center;
-  }
+}
+    .card p{
+    margin-bottom:0 !important;
+}
 
 }
 @media (max-width:768px){
